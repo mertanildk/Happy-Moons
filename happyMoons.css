@@ -1,9 +1,28 @@
 body {
       background-color: rgb(17, 17, 17) !important;
-      color: red;
+      color: white;
 }
-img {
-      display: inline-block;
+
+
+.height-500 {
+      height: 500px;
+}
+.bgcolor-red {
+      background-color: red;
+      color: white;
+}
+.font-size-big>a {
+      font-size:17px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+
+      
+}
+.font-size-big>a:hover {
+      color:rgba(255, 255, 255, 0.8);
+
 }
 
 .navUL>li>div {
@@ -13,9 +32,26 @@ img {
       
 
 }
+
 .navUL>li>div>a {
       text-align: center;
       color: white;
+
+}
+
+.happyCafe-center { 
+      background-color: none;
+      font-family: 'Montserrat', sans-serif; 
+      display: inline-block;
+      color: red;
+
+      height: 25px;
+      width: 100%;
+      font-size: 30px;
+      padding-top: 100px;
+}
+.mt-120 {
+      margin-top: 120px;
 }
 
 
